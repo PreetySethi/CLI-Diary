@@ -33,22 +33,6 @@ Here's what I've been up to recently:
 - **Wireshark**, **nmap**, **Burp Suite**
 - **TryHackMe**, **Hack The Box** (CTF)
 
----
-
-## 🌟 **Key Projects**
-Here are a few of my recent projects that showcase my learning and skill development:
-
-- 🔗 [**Network Sniffer (Wireshark)**](https://github.com/PreetySethi/Network-Sniffer)  
-  A simple Python tool to sniff and capture packets from network traffic.
-
-- 🔗 [**Ethical Hacking Lab**](https://github.com/PreetySethi/Ethical-Hacking-Lab)  
-  Practice penetration testing and vulnerability scanning in a controlled environment.
-
-- 🔗 [**TCP Chat Application**](https://github.com/PreetySethi/TCP-conference-chat)  
-  A multi-user chat application built using TCP sockets for secure communication.
-
----
-
 ## 📚 **Learning Resources**
 Here are some resources I'm using to expand my knowledge:
 
@@ -56,12 +40,6 @@ Here are some resources I'm using to expand my knowledge:
 - 📘 [OWASP Top 10](https://owasp.org/www-project-top-ten/)
 - 📚 [The Web Application Hacker's Handbook](https://www.amazon.com/Web-Application-Hackers-Handbook-Exploitation/dp/1118026470)
 
----
-
-## 📌 **Goals**
-- **Next Week**: TryHackMe "Intro to Pentesting" room
-- **Goal by August 2025**: Complete a small CTF and document results
-- **Long-Term**: Master network security protocols and begin job applications in the cybersecurity field
 
 
 ![Badge: GitHub Stats](https://github-readme-stats.vercel.app/api?username=PreetySethi&show_icons=true&count_private=true&hide=prs&hide_title=true&theme=radical)
