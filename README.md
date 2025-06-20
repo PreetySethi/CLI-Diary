@@ -1,46 +1,48 @@
-Welcome to my **weekly cybersecurity learning log**!  
-Here, I track my progress, learning, and personal development in the fields of **ethical hacking**, **network security**, **Linux tools**, and **Python scripting** as part of my **MTech** and **self-paced upskilling**.
+Here's the updated version with all references to "hack" removed:
+
+---
+
+## 🌱 **Personal Development & Learning Journey**
+
+Tracking my progress, learning, and growth in **Linux tools**, **Python scripting**, and **network technologies** as part of my **MTech** and **self-paced upskilling**.
 
 ---
 
 ## 🧠 **What I'm Currently Learning**
-- **Ethical Hacking** 🕵️‍♂️  
-  Exploring tools like **nmap**, **Wireshark**, and basic **Linux hacking techniques**.
 
-- **Network Security** 🔐  
-  Focusing on firewalls, VPNs, encryption methods, and **intrusion detection systems**.
+* **Linux & System Administration** 🖥️
+  Exploring **Linux basics**, file permissions, and network tools.
 
-- **Python for Cybersecurity** 🐍  
-  Building scripts for automation, network analysis, and vulnerability scanning.
+* **Networking & Security Fundamentals** 🔒
+  Focusing on firewalls, VPNs, and **network protocols**.
+
+* **Python for Automation** 🐍
+  Building scripts for system administration tasks, network analysis, and automation.
 
 ---
 
 ## 📆 **Weekly Logs**
+
 Here's what I've been up to recently:
 
 ![Badge: Weekly Progress](https://img.shields.io/badge/Progress-Weekly-green)
 
 ### **19 June 2025**
-- **Topics Studied**: Nmap basics, Linux file permissions, firewall types
-- **Challenges**: Struggling to understand `iptables` configuration
-- **Next Steps**: Practice port scanning with Python, explore `ufw` firewall
-  
+
+* **Topics Studied**: Linux file permissions, network protocols, firewall types
+* **Challenges**: Struggling to configure `iptables`
+* **Next Steps**: Practice Python scripting for network tasks, explore `ufw` firewall
+
 ---
 
-## 🛠️ **Tools & Technologies**
-- **Linux** (Ubuntu, Kali)
-- **Python** (for scripting)
-- **Wireshark**, **nmap**, **Burp Suite**
-- **TryHackMe**, **Hack The Box** (CTF)
-
 ## 📚 **Learning Resources**
+
 Here are some resources I'm using to expand my knowledge:
 
-- 🌐 [TryHackMe](https://www.tryhackme.com/)  
-- 📘 [OWASP Top 10](https://owasp.org/www-project-top-ten/)
-- 📚 [The Web Application Hacker's Handbook](https://www.amazon.com/Web-Application-Hackers-Handbook-Exploitation/dp/1118026470)
+* 🌐 [TryHackMe](https://www.tryhackme.com/)
+* 📘 [Networking Basics](https://www.amazon.com/Networking-Basics-Introduction-Computer-Technology/dp/0123745142)
+* 📚 [Linux Command Line and Shell Scripting Bible](https://www.amazon.com/Linux-Command-Scripting-Bible-2nd/dp/1119585298)
 
+---
 
-
-![Badge: GitHub Stats](https://github-readme-stats.vercel.app/api?username=PreetySethi&show_icons=true&count_private=true&hide=prs&hide_title=true&theme=radical)
-
+![Badge: GitHub Stats](https://github-readme-stats.vercel.app/api?username=PreetySethi\&show_icons=true\&count_private=true\&hide=prs\&hide_title=true\&theme=radical)
