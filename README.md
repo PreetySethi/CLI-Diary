@@ -1,7 +1,3 @@
-Here's the updated version with all references to "hack" removed:
-
----
-
 ## 🌱 **Personal Development & Learning Journey**
 
 Tracking my progress, learning, and growth in **Linux tools**, **Python scripting**, and **network technologies** as part of my **MTech** and **self-paced upskilling**.
