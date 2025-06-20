@@ -1,0 +1,100 @@
+## 🐧 **Linux Basics Cheat Sheet**
+
+### 📁 1. File System Structure
+
+Linux has a hierarchical structure starting from `/` (root):
+
+* `/home/` – User files (e.g. `/home/yourname`)
+* `/etc/` – Configuration files
+* `/var/` – Logs and variable data
+* `/bin/`, `/usr/bin/` – System & user commands
+* `/dev/` – Devices
+
+---
+
+### 📄 2. Common File Commands
+
+| Task                    | Command                          |
+| ----------------------- | -------------------------------- |
+| List files              | `ls` or `ls -l`                  |
+| Change directory        | `cd /path/to/dir`                |
+| Print working directory | `pwd`                            |
+| Make directory          | `mkdir myfolder`                 |
+| Remove file/directory   | `rm file.txt` / `rm -r folder`   |
+| Copy/move files         | `cp src dest` / `mv old new`     |
+| View file contents      | `cat file.txt` / `less file.txt` |
+| Search in files         | `grep "text" file.txt`           |
+
+---
+
+### 🔧 3. Permissions & Ownership
+
+Each file has:
+
+* **User (u)** – Owner
+* **Group (g)** – Group of users
+* **Other (o)** – Everyone else
+
+```bash
+ls -l file.txt
+# -rw-r--r-- 1 user group file.txt
+```
+
+* Read = `r`, Write = `w`, Execute = `x`
+* Change permissions: `chmod 755 script.sh`
+* Change ownership: `chown user:group file.txt`
+
+---
+
+### 🔍 4. Process & System Info
+
+| Task                   | Command              |
+| ---------------------- | -------------------- |
+| Show running processes | `ps aux` or `top`    |
+| Kill a process by PID  | `kill 1234`          |
+| System info            | `uname -a`           |
+| Disk usage             | `df -h` / `du -sh *` |
+| Memory usage           | `free -h`            |
+
+---
+
+### 🔐 5. Users and Sudo
+
+| Task              | Command                         |
+| ----------------- | ------------------------------- |
+| Switch user       | `su - username`                 |
+| Add new user      | `sudo adduser newuser`          |
+| Add to sudo group | `sudo usermod -aG sudo newuser` |
+| Change password   | `passwd`                        |
+
+---
+
+### 🌐 6. Networking
+
+| Task             | Command                       |
+| ---------------- | ----------------------------- |
+| Show IP address  | `ip a` or `ifconfig`          |
+| Check open ports | `netstat -tuln` or `ss -tuln` |
+| Ping a host      | `ping example.com`            |
+| DNS lookup       | `nslookup google.com`         |
+
+---
+
+### 🔥 Bonus: File Permissions Numeric Table
+
+| rwx | Binary | Value |
+| --- | ------ | ----- |
+| --- | 000    | 0     |
+| --x | 001    | 1     |
+| -w- | 010    | 2     |
+| -wx | 011    | 3     |
+| r-- | 100    | 4     |
+| r-x | 101    | 5     |
+| rw- | 110    | 6     |
+| rwx | 111    | 7     |
+
+So `chmod 755` means:
+
+* Owner: rwx (7)
+* Group: r-x (5)
+* Others: r-x (5)
